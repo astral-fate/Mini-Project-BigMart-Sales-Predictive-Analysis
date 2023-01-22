@@ -33,12 +33,19 @@ The data utilized for this project consists of 12 columns and over 8,000 rows. T
 | Outlet_Type | Whether the outlet is just a grocery store or some sort of supermarket|
 | Item_Outlet_Sales | Sales of the product in the particulat store. This is the outcome variable to be predicted.|
 
+### Univariate data analysis 
+
+
+### Bivariate data analysis 
+
 
 
 ## Data Preprocessing and handling missing value treatment
 
 
 In the Data Preprocessing and handling missing value treatment section, we first determined the number of null values present in the dataset. Then, we calculated the percentage of null values in relation to the overall number of rows. Since the percentage of null values was less than 5%, we filled the missing values in the column "item weight" and "outlet size" with the mean value of the respective columns. This approach was chosen as it preserves the overall distribution of the data and does not introduce significant bias.
+
+<img width="844" alt="image" src="https://user-images.githubusercontent.com/63984422/213921691-a47914ee-b896-4da0-b02a-ba92aa504b4d.png">
 
 
 ## Feature Engineering
