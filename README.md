@@ -7,6 +7,7 @@
 4. [Feature Engineering](#Feature-Engineering)
 5. [Data Encoding](#Data-Encoding)
 6. [Modeling](#Modeling)
+7. [Summary](#Summary)
 
 
 
@@ -46,6 +47,8 @@ Univariate data analysis means exploring just one column, finding the frequancy,
 
 Bivariate data analysis refers to the examination of the correlation between two columns and the discovery of the relationship between them.
 
+<img width="840" alt="image" src="https://user-images.githubusercontent.com/63984422/213922158-b0fa766a-369a-4604-95e2-11eac0a8e058.png">
+
 ## Data Preprocessing and handling missing value treatment
 
 
@@ -53,8 +56,6 @@ In the Data Preprocessing and handling missing value treatment section, we first
 
 <img width="844" alt="image" src="https://user-images.githubusercontent.com/63984422/213921691-a47914ee-b896-4da0-b02a-ba92aa504b4d.png">
 
-
-<img width="840" alt="image" src="https://user-images.githubusercontent.com/63984422/213922158-b0fa766a-369a-4604-95e2-11eac0a8e058.png">
 
 
 ## Feature Engineering
@@ -70,15 +71,42 @@ Since we have over 15 types of items, we subgrouped them into 3 main categories;
 <img width="631" alt="image" src="https://user-images.githubusercontent.com/63984422/213922440-bf8d56bd-ba30-4662-9749-3811947e26be.png">
 
 
-
 ## Data Encoding
+
+I have labled encode the categories data such as outlet size, fat content, and item weight. I have fisr sorted the values, plot them, then encoded them.
+
+<img width="448" alt="image" src="https://user-images.githubusercontent.com/63984422/213922622-e08fd416-a273-41fd-b21f-a6c588de9c26.png">
+
+<img width="507" alt="image" src="https://user-images.githubusercontent.com/63984422/213922643-9d524930-09f7-4877-b852-364b0c3ce904.png">
 
 
 
 ## Modeling
 
+After cleaning, and normlizing the target variable which is the 'Outlet_Sales', I have implented different regression models; linear, regular regression, random forest, and xgb model, and I have compared between their performance.
 
 
-The process we will take to build this machine learning model is as follows:
+### Linear Regression 
 
-First clean the data
+<img width="726" alt="image" src="https://user-images.githubusercontent.com/63984422/213922864-2c9f6c45-96c4-4f41-ba36-acca320f63fd.png">
+
+
+
+## Regular Regression 
+
+
+<img width="651" alt="image" src="https://user-images.githubusercontent.com/63984422/213922874-4c56819b-eb28-49a9-8085-81e3554b91ba.png">
+
+
+## Random Forest 
+
+<img width="653" alt="image" src="https://user-images.githubusercontent.com/63984422/213922882-d48410de-9b8e-473a-ac55-ea6b9db1dbb3.png">
+
+
+## Xgb model
+
+<img width="602" alt="image" src="https://user-images.githubusercontent.com/63984422/213922907-82ad40d8-c445-44fd-9c8f-325c604c5a96.png">
+
+
+
+
