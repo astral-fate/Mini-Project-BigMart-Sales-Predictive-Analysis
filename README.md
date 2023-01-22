@@ -12,7 +12,11 @@
 
 ## Problem Statement
 
+The objective of this internship task is to utilize 2013 sales data collected by the data scientists at BigMart for 1559 products across 10 stores in various cities, along with the attributes of each product and store, to construct a predictive model with the aim of determining the sales of each product at a specific store. Furthermore, through the utilization of this model, BigMart intends to gain insight into the properties of products and stores that play a crucial role in increasing sales. The dataset provided contains detailed information about the products offered by various outlets, including product size, fat content, and MRP information. The aim of this project is to identify the features of a product that lead to increased overall sales in the outlets. To achieve this, predictive models will be implemented utilizing the sklearn machine learning library, and the model providing the most accurate prediction will be determined through a summary of model accuracy.
+
 ## Exploratory Data Analysis
+
+The data utilized for this project consists of 12 columns and over 8,000 rows. The description of each column is as follows:
 
 | Variable        | Description|
 | :-------------: | :-------------: |
@@ -31,15 +35,20 @@
 
 
 
-## Missing Value Treatment
+## Data Preprocessing and handling missing value treatment
 
+
+In the Data Preprocessing and handling missing value treatment section, we first determined the number of null values present in the dataset. Then, we calculated the percentage of null values in relation to the overall number of rows. Since the percentage of null values was less than 5%, we filled the missing values in the column "item weight" and "outlet size" with the mean value of the respective columns. This approach was chosen as it preserves the overall distribution of the data and does not introduce significant bias.
 
 
 ## Feature Engineering
 
+
+
 ## Data Encoding
 
-The natural intelligence and animals; inspired by ants, and birds' swarm
+
+
 ## Modeling
 
 
