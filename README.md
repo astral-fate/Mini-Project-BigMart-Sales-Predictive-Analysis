@@ -35,10 +35,16 @@ The data utilized for this project consists of 12 columns and over 8,000 rows. T
 
 ### Univariate data analysis 
 
+Univariate data analysis means exploring just one column, finding the frequancy, its mean, median and std
+
+<img width="485" alt="image" src="https://user-images.githubusercontent.com/63984422/213921972-cc991cc6-89e8-4dd4-8de6-0a4a17d715d4.png">
+
+<img width="467" alt="image" src="https://user-images.githubusercontent.com/63984422/213921925-6ce99102-7d3e-45f1-a090-5ce337731f4c.png">
+
 
 ### Bivariate data analysis 
 
-
+Bivariate data analysis refers to the examination of the correlation between two columns and the discovery of the relationship between them.
 
 ## Data Preprocessing and handling missing value treatment
 
@@ -48,7 +54,20 @@ In the Data Preprocessing and handling missing value treatment section, we first
 <img width="844" alt="image" src="https://user-images.githubusercontent.com/63984422/213921691-a47914ee-b896-4da0-b02a-ba92aa504b4d.png">
 
 
+<img width="840" alt="image" src="https://user-images.githubusercontent.com/63984422/213922158-b0fa766a-369a-4604-95e2-11eac0a8e058.png">
+
+
 ## Feature Engineering
+
+In the Feature Engineering section, also known as Feature Transformation, modifications were made to the structure of the features or columns in the dataset. The data was cleaned of inconsistencies through the merger of "Low Fat" with "low fat" and "LF" and "Regular" with "reg". Additionally, a new category named "Non-Edible" was created for items that are not intended for consumption and therefore do not have a fat content. This process aimed to provide a more structured and accurate representation of the data and is crucial for the success of the predictive model.
+
+<img width="651" alt="image" src="https://user-images.githubusercontent.com/63984422/213922378-b8ad0418-b049-4224-a443-5ea87aced919.png">
+
+
+Since we have over 15 types of items, we subgrouped them into 3 main categories; food, drink, and non-consumable:
+
+<img width="825" alt="image" src="https://user-images.githubusercontent.com/63984422/213922426-898e86eb-5583-408c-aeb7-b816082e2401.png">
+<img width="631" alt="image" src="https://user-images.githubusercontent.com/63984422/213922440-bf8d56bd-ba30-4662-9749-3811947e26be.png">
 
 
 
