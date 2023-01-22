@@ -108,5 +108,23 @@ After cleaning, and normlizing the target variable which is the 'Outlet_Sales', 
 <img width="602" alt="image" src="https://user-images.githubusercontent.com/63984422/213922907-82ad40d8-c445-44fd-9c8f-325c604c5a96.png">
 
 
+## Summary
+
+A good model is one that can accurately predict the outcome based on the input data. There are several ways to evaluate the performance of a model, including:
+
+Accuracy: This is the proportion of correct predictions made by the model. It is often used as a metric for classification problems.
+
+Mean Squared Error (MSE): This is a measure of the average difference between the predicted and actual values. The smaller the MSE, the better the model is at fitting the data.
+
+Root Mean Squared Error (RMSE): This is the square root of the MSE. It is used to provide the error in the same unit as the target variable.
+
+R-Squared: This is a measure of how well the model fits the data. It ranges from 0 to 1, with 1 indicating a perfect fit. A high R-squared value means that the model explains a large proportion of the variation in the target variable.
+
+Precision, Recall, F1-Score: These are commonly used for classification problems. Precision is the proportion of true positive predictions out of all positive predictions. Recall is the proportion of true positive predictions out of all actual positive cases. F1-Score is the harmonic mean of precision and recall, which gives a balance between the two.
+
+
+Thus, A good model should have a high R-squared value, a low RMSE and should generalize well to new data. Therefore, a model that has a good balance of high training score and high test score, and low error metrics would be considered a good model.
+
+Therefore <b> Xgb model </b> has RMSE or Root Mean Squared Error: 0.08832180107648124 and have relitavley high R^2: 0.5458497648070729.
 
 
